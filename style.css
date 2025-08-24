@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import "twilwindcss";
+.manrope_font{
+    font-family: "Manrope", sans-serif;
+}
+body{
+    font-family: "Manrope", sans-serif;
+}
+.dark1{
+    color: #1C1C1C;
+}
+.dark2{
+    color: #494949;
+}
+.dark3{
+    color: #777777;
+}
+.newsletter i{
+    width: 40px;
+    height: 40px;
+    padding: 11px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+
