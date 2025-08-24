@@ -13,13 +13,13 @@
 <body>
     <section id="banner" class="max-w-[1140px] m-auto flex mt-[50px] justify-between items-center mb-[120px]">
         <div class="banner_left w-[80%]">
-            <h1 class="text-[80px] font-bold leading-25 dark1">It's good <br> tea time at The Tea House</h1>
+            <h1 id="bannerh1" class="text-[80px] font-bold leading-25 dark1">It's good <br> tea time at The Tea House</h1>
             <p class="text-[18px] font-medium my-[30px] dark3">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
-            <button class="cursor-pointer bg-gradient-to-r from-[#ff8938] to-[#ff0000] p-[20px] rounded-xl flex items-center text-white text-[20px] font-bold">Explore More<img src="images/arrow.png" alt="" class="w-[20px] h-[20px] ml-[10px] "></button>
+            <button id="button" class="cursor-pointer bg-gradient-to-r from-[#ff8938] to-[#ff0000] p-[20px] rounded-xl flex items-center text-white text-[20px] font-bold">Explore More<img src="images/arrow.png" alt="" class="w-[20px] h-[20px] ml-[10px] "></button>
         </div>
         <div class="banner_right relative">
             <img src="images/banner.png" alt="banner image" class="relative top-[75px]">
-            <div class="rounded-lg flex items-center shadow-lg max-w-[250px] p-[20px] absolute  bg-white top-[350px] left-[30px]">
+            <div id="rating" class="rounded-lg flex items-center shadow-lg max-w-[250px] p-[20px] absolute  bg-white top-[350px] left-[30px]">
                 <i class="fa-solid fa-star text-[30px] text-yellow-300"></i>
                 <div class="ml-[20px]">
                     <h2 class="text-2xl dark1 font-bold">5.00</h2>
@@ -32,7 +32,7 @@
     <section id="FeaturedProducts" class="max-w-[1140px] m-auto mb-[120px]"> 
         <h1 class="text-[45px] font-bold dark1 text-center">Our Featured Products</h1>
         <p class="font-midium dark3 text-center w-[80%] m-auto mt-[20px] mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-        <div class="grid grid-cols-4 gap-4">
+        <div id="products" class="grid grid-cols-4 gap-4">
             <div class="p-[30px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] rounded-xl text-center ">
                 <img src="images/tea-1.png" class="mb-[30px] mx-auto block" alt="">
                 <h3 class="font-extrabold text-[25px]">Milk Tea</h3>
@@ -57,13 +57,13 @@
     </section>
 
     <section id="GreatTea" class="max-w-[1140px] m-auto flex gap-13 items-center justify-between mb-[120px]" >
-        <div class="left_side grid grid-cols-2 grid-rows-3 gap-8">
-            <div class="w-[238px] bg-linear-to-r from-[#ff0000] to-[#ff8938] opacity-10 rounded-xl"></div>
-            <div class="w-[238px] bg-[#E6A6231a] row-span-2 rounded-xl"> <img src="images/fresh-1.png" alt="" class="mx-auto block py-[40px]"></div>
-            <div class="w-[238px] bg-[#5776391a] row-span-2 rounded-xl"> <img src="images/fresh-2.png" alt="" class="mx-auto block py-[40px]"></div>
-            <div class="w-[238px] bg-linear-to-r from-[#d9d9d9] to-[#ffffff] rounded-xl"></div>
+        <div id="design" class="left_side grid grid-cols-2 grid-rows-3 gap-8">
+            <div class="lg:w-[238px] bg-linear-to-r from-[#ff0000] to-[#ff8938] opacity-10 rounded-xl"></div>
+            <div class="lg:w-[238px] bg-[#E6A6231a] row-span-2 rounded-xl"> <img src="images/fresh-1.png" alt="" class="mx-auto block py-[40px]"></div>
+            <div class="lg:w-[238px] bg-[#5776391a] row-span-2 rounded-xl"> <img src="images/fresh-2.png" alt="" class="mx-auto block py-[40px]"></div>
+            <div class="lg:w-[238px] bg-linear-to-r from-[#d9d9d9] to-[#ffffff] rounded-xl"></div>
         </div>
-        <div class="right_side max-w-1/2">
+        <div class="right_side lg:max-w-1/2">
             <h1 class="font-extrabold text-[45px] dark1 mb-[20px]">Great Tea, Freshly Presented</h1>
             <p class="font-medium dark3 mb-[30px]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
             <h4 class="font-extrabold text-[20px] dark1 mb-[15px]">Unique Taste</h4>
@@ -74,7 +74,7 @@
     </section>
 
     <section id="MeetClients" class="rounded-xl max-w-[1140px] m-auto mb-[120px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] flex">
-        <div class="relative left_side max-w-1/2 pl-[70px] py-[100px]">
+        <div class="relative left_side lg:max-w-1/2 pl-[70px] py-[100px]">
             <h1 class="mb-[20px] leading-[1.3] text-[#F4F4F4] text-[45px] font-extrabold">Meet Our Super <br> Clients</h1>
             <p class="mb-[30px] text-[#F4F4F4] font-midium max-w-[75%]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             <button class="cursor-pointer bg-[#F4F4F4] px-6 py-3 rounded-lg font-bold">
@@ -83,23 +83,23 @@
             <img src="images/bg_cup.png " class=" absolute top-[200px] left-[150px]" alt="">
         </div>
         <div class="right_side">
-            <div class="bg-[#FFFFFF] max-w-[80%] relative pl-[50px] pr-[30px] py-[30px] left-[50px] top-[75px] rounded-xl opacity-30 z-0">
-            <div class="absolute left-[-20px] top-[-20px] border-4 rounded-full border-white"><img src="images/client.png" alt=""></div>
-            <p class="dark3">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-            <h5 class="dark1 font-semibold mt-[20px]">Ilham Yuda</h5>
-            <p class="dark2">Businessman</p>
+            <div id="cmnt1" class="bg-[#FFFFFF] max-w-[80%] relative pl-[50px] pr-[30px] py-[30px] left-[50px] top-[75px] rounded-xl opacity-30 z-0">
+                <div class="absolute left-[-20px] top-[-20px] border-4 rounded-full border-white"><img src="images/client.png" alt=""></div>
+                <p class="dark3">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <h5 class="dark1 font-semibold mt-[20px]">Ilham Yuda</h5>
+                <p class="dark2">Businessman</p>
             </div>
-            <div class="bg-[#FFFFFF] max-w-[80%] relative pl-[50px] pr-[30px] py-[30px] left-[-50px] rounded-xl z-10">
-            <div class="absolute left-[-20px] top-[-20px] border-4 rounded-full border-white"><img src="images/client.png" alt=""></div>
-            <p class="dark3">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-            <h5 class="dark1 font-semibold mt-[20px]">Ilham Yuda</h5>
-            <p class="dark2">Businessman</p>
+            <div id="cmnt2" class="bg-[#FFFFFF] max-w-[80%] relative pl-[50px] pr-[30px] py-[30px] left-[-50px] rounded-xl z-10">
+                <div class="absolute left-[-20px] top-[-20px] border-4 rounded-full border-white"><img src="images/client.png" alt=""></div>
+                <p class="dark3">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <h5 class="dark1 font-semibold mt-[20px]">Ilham Yuda</h5>
+                <p class="dark2">Businessman</p>
             </div>
-            <div class="bg-[#FFFFFF] max-w-[80%] relative pl-[50px] pr-[30px] py-[30px] left-[50px] top-[-75px] rounded-xl opacity-30 z-0">
-            <div class="absolute left-[-20px] top-[-20px] border-4 rounded-full border-white"><img src="images/client.png" alt=""></div>
-            <p class="dark3">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-            <h5 class="dark1 font-semibold mt-[20px]">Ilham Yuda</h5>
-            <p class="dark2">Businessman</p>
+            <div id="cmnt3" class="bg-[#FFFFFF] max-w-[80%] relative pl-[50px] pr-[30px] py-[30px] left-[50px] top-[-75px] rounded-xl opacity-30 z-0">
+                <div class="absolute left-[-20px] top-[-20px] border-4 rounded-full border-white"><img src="images/client.png" alt=""></div>
+                <p class="dark3">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <h5 class="dark1 font-semibold mt-[20px]">Ilham Yuda</h5>
+                <p class="dark2">Businessman</p>
             </div>
         </div>
     </section>
@@ -107,7 +107,7 @@
     <section id="News&Evnets" class="max-w-[1140px] m-auto mb-[120px]"> 
         <h1 class="text-[45px] font-bold dark1 text-center">News & Events</h1>
         <p class="font-midium dark3 text-center w-[80%] m-auto mt-[20px] mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-        <div class="grid grid-cols-3 gap-4">
+        <div id="news" class="grid grid-cols-3 gap-4">
             <div class="p-[30px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] rounded-xl">
                 <img src="images/news-1.png" class="mb-[20px] mx-auto block" alt="">
                 <p class="mb-[10px] dark2">Feb 05, 2027</p>
@@ -135,13 +135,13 @@
     <footer class="bg-gradient-to-l from-[#FF00001A] to-[#FF89381A]">
         <div class="max-w-[1140px] m-auto pt-[100px]">
             <div class="flex justify-between mb-[80px]">
-                <img src="images/cup.png" alt="">
+                <img id="footerImg" src="images/cup.png" alt="">
                 <div class="flex items-center justify-center">
                     <h3 class="text-[20px] font-bold dark2 mr-[40px]">Ready to get started?</h3>
                     <button class="cursor-pointer bg-gradient-to-r from-[#ff8938] to-[#ff0000] py-4 px-7 rounded-xl flex items-center text-white text-[20px] font-bold">Get Started</button>
                 </div>
             </div>
-            <div class="grid grid-cols-4 mb-[50px]">
+            <div id="footer" class="grid grid-cols-4 mb-[50px]">
                 <div><ul><h2 class="font-bold text-[20px] dark1 mb-[20px]">Quick Links</h2>
                     <li class="dark2 mb-[15px]"><a href="">Home</a></li>
                     <li class="dark2 mb-[15px]"><a href="">About Us</a></li>

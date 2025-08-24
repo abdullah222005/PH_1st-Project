@@ -24,4 +24,50 @@ body{
     border-radius: 100%;
 }
 
-
+@media screen and (max-width: 576px){
+    #banner{
+        flex-direction: column;
+    }
+    #bannerh1{
+        font-size: 45px;
+        line-height: normal;
+    }
+    #button{
+        padding: 15px;
+        font-size: 18px;
+    }
+    #rating{
+        left: 100px;
+    }
+    #products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #GreatTea{
+        flex-direction: column;
+    }
+    #design{
+        max-width: 100%;
+    }
+    #MeetClients{
+        flex-direction: column;
+    }
+    #cmnt1{
+        left: 88px;
+    }
+    #cmnt2{
+        left: 33px
+    }
+    #cmnt3{
+        left: 88px;
+    }
+    #news{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #footerImg{
+        margin-right: 20px;
+    }
+    #footer{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+}
