@@ -37,8 +37,8 @@ body{
         font-size: 18px;
     }
     #rating{
-        left: 96px;
-        top: 323px;
+        left: 20%;
+        top: 99%;
     }
     #products{
         grid-template-columns: repeat(2, 1fr);
@@ -53,17 +53,17 @@ body{
         flex-direction: column;
     }
     .left_side img{
-        left: 50px;
-        top: 333px;
+        left: 5%;
+        top: 50%;
     }
     #cmnt1{
-        left: 80px;
+        left: 20%
     }
     #cmnt2{
-        left: 33px
+        left: 10%;
     }
     #cmnt3{
-        left: 80px;
+        left: 20%;
     }
     #news{
         grid-template-columns: repeat(1, 1fr);
