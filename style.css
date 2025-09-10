@@ -37,7 +37,8 @@ body{
         font-size: 18px;
     }
     #rating{
-        left: 100px;
+        left: 96px;
+        top: 323px;
     }
     #products{
         grid-template-columns: repeat(2, 1fr);
@@ -51,14 +52,18 @@ body{
     #MeetClients{
         flex-direction: column;
     }
+    .left_side img{
+        left: 50px;
+        top: 333px;
+    }
     #cmnt1{
-        left: 88px;
+        left: 80px;
     }
     #cmnt2{
         left: 33px
     }
     #cmnt3{
-        left: 88px;
+        left: 80px;
     }
     #news{
         grid-template-columns: repeat(1, 1fr);
